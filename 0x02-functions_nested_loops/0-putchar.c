@@ -1,19 +1,15 @@
-/*
- * File: 0-putchar.c
- * Auth: Brennan D Baraban
- *
- */
-
-#include "Putchar.h"
+#include "0-putchar.h"
 
 /**
- * main - Prints "Putchar" followed by a new line.
- *
- * Return: Always 0.
+ * main - print 0-putchar, followed by new line
+ * Return: 0
  */
+
 int main(void)
 {
-	_putchar('P');
+	_putchar('0');
+	_putchar('-');
+	_putchar('p');
 	_putchar('u');
 	_putchar('t');
 	_putchar('c');
