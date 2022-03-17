@@ -6,7 +6,7 @@
  * Return: last digit of number
  */
 
-int print_last_digit(int n)
+int print_last_digit(INT_MIN);
 {
 	if (n < 0)
 		n *= -1;
