@@ -1,14 +1,13 @@
-#include "0-putchar.c"
-
+#include "main.h"
+#include <stdio.h>
 /**
- * main - print 0-putchar, followed by new line
+ * _putchar - print 0-putchar, followed by new line
  * Return: 0
  */
 
 int main(void)
 {
-	_putchar('0');
-	_putchar('-');
+	_putchar('_');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
